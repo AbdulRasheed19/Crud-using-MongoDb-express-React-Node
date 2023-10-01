@@ -5,12 +5,8 @@ const ejs = require("ejs");
 const User = require("./model/User");
 
 const app = express();
-
-
-
 // Bodyparser Middleware
 app.use(bodyParser.json());
-
 // database
 const Mong = "mongodb://localhost:27017/Rasheed";
 mongoose.connect(Mong, {

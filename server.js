@@ -6,6 +6,8 @@ const User = require("./model/User");
 
 const app = express();
 
+
+
 // Bodyparser Middleware
 app.use(bodyParser.json());
 
